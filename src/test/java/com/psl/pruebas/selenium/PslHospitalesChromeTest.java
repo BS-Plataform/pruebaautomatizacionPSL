@@ -24,7 +24,7 @@ public class PslHospitalesChromeTest {
     @Before
     public void openBrowser() {
 
-        System.setProperty("webdriver.chrome.driver", "/Users/ssanchez/bin/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "D:\\Downloads\\chromedriver_win32\\chromedriver.exe");
         baseUrl = "http://automatizacion.herokuapp.com/marcos/home";
         driver = new ChromeDriver();
         driver.get(baseUrl);

@@ -24,7 +24,7 @@ public class PslHospitalesFirefoxTest {
     @Before
     public void openBrowser() {
 
-        System.setProperty("webdriver.gecko.driver", "/Users/ssanchez/bin/geckodriver");
+        System.setProperty("webdriver.gecko.driver", "D:\\Downloads\\geckodriver-v0.13.0-win64\\geckodriver.exe");
         baseUrl = "http://automatizacion.herokuapp.com/marcos/home";
         driver = new FirefoxDriver();
         driver.get(baseUrl);
